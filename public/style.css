@@ -1,0 +1,99 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+background-image: url("https://img.freepik.com/free-photo/young-students-learning-together-during-group-study_23-2149211067.jpg?w=740&t=st=1725997412~exp=1725998012~hmac=1360d6d7f0a1e00c65c54d8bb29433a90f01f6282c479edc3f88b1fddfa25619");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#taskForm{
+    width:25vw;
+    padding: 20px;
+    margin-left:29rem;
+    box-shadow: 0 0 5px 0 ;
+    backdrop-filter: blur(10px);
+    border-radius:50px;
+    border: 1px solid rgba(2, 2, 2, 0.561);
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+.input-filed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    width:20vw;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;
+    margin-left:2rem;
+    
+}
+
+input::placeholder{
+    color: rgb(73, 73, 73);
+    padding:6rem;
+}
+
+textarea::placeholder{
+    color: rgb(73, 73, 73);
+    padding-left:7rem;
+}
+
+.title-2{
+    color: white;
+}
+
+.title-3{
+    color:white
+}
+
+button{
+    background-color: rgb(15, 72, 99);
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#fetchTasksForm{
+    width:25vw;
+    padding: 20px;
+    margin-left:29rem;
+    box-shadow: 0 0 5px 0 ;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(2, 2, 2, 0.561);
+    border-radius:50px;
+} 
+
+#title1{
+    margin-left:30rem;
+    color: rgb(4, 21, 51);
+
+}
+.task-paragraph {
+    border-radius: 20px;
+    display: block;
+    width:24vw;
+    height:15vh;
+    background-color: rgb(199, 207, 214);
+    padding:35px;
+    margin-left:29rem;
+    font-size: 18px;
+    color: darkslategray;
+    margin-bottom: 10px;
+  }
+  
